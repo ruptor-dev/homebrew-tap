@@ -5,22 +5,22 @@ cask "ruptor" do
   on_macos do
     on_intel do
       url "https://github.com/ruptor-dev/cli/releases/download/v#{version}/ruptor_#{version}_macOS_x86_64.tar.gz"
-      sha256 "e58c346999ef2d3950c40787e541ca36d5aaf15349cfb5115a0df4f558dddf30"
+      sha256 "b7255c93aec22aa13d4bb8019fda2ddd6271a5e088f3ea79cb76b6836f33f9db"
     end
     on_arm do
       url "https://github.com/ruptor-dev/cli/releases/download/v#{version}/ruptor_#{version}_macOS_arm64.tar.gz"
-      sha256 "3680a4c9b83f2a2ea43eb17aeec30c2fa07a7975f74a0bfaaaa6cb94845288d9"
+      sha256 "712815b2584a430545d5bd43e91db34f889bbc8b406536c665746e2ef31744a1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ruptor-dev/cli/releases/download/v#{version}/ruptor_#{version}_Linux_x86_64.tar.gz"
-      sha256 "4c34849035bfe8cb819cd5fea51515c6ea5b417a39a428d085a39eaf5d302df6"
+      sha256 "0954c1f76a7960e2639813c9b7ef2cb31f2bad7702c32c65da2fa9c144e01b00"
     end
     on_arm do
       url "https://github.com/ruptor-dev/cli/releases/download/v#{version}/ruptor_#{version}_Linux_arm64.tar.gz"
-      sha256 "48ac78674a76c3554cf3d127cafaa7c92f3093e0fe8487800779643b66f9dd8f"
+      sha256 "5122facd0a7a8dc6b02e1bfb83a16494ff2b017efcb675c663dffdea8062ddac"
     end
   end
 
